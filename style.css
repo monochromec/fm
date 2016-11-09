@@ -1,0 +1,113 @@
+/* Global Styles */
+
+/*
+    This file is part of Freies Magazin email distribution software.
+
+    Freies Magazin email distribution software is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Freies Magazin email distribution software is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Freies Magazin email distribution software.  If not, see <http://www.gnu.org/licenses/>
+*/
+
+*
+{
+  padding: 0; /* Reset all padding to 0 */
+  margin: 0; /* Reset all margin to 0 */
+  }
+
+body
+{
+  background: #F9F9F9; /* Set HTML background color */
+  font: 14px "Lucida Grande";  /* Set global font size & family */
+  color: #464646; /* Set global text color */
+  }
+
+p
+{
+  margin: 10px 0px 10px 0px; /* Add some padding to the top and bottom of the <p> tags */
+  }
+/* Header */
+#header
+{
+  height: 45px; /* Set header height */
+  background: #464646; /* Set header background color */
+  }
+
+#header h3
+{
+  color: #FFFFF3; /* Set header heading(top left title ) color */
+  padding: 10px; /* Set padding, to center it within the header */
+  font-weight: normal; /* Set font weight to normal, default it was set to bold */
+
+  }
+
+#wrap
+{
+  background: #FFFFFF; /* Set content background to white */
+  width: 75ch; /* Set the width of our content area */
+  margin: 0 auto; /* Center our content in our browser */
+  margin-top: 50px; /* Margin top to make some space between the header and the content */
+  padding: 10px; /* Padding to make some more space for our text */
+  border: 1px solid #DFDFDF; /* Small border for the finishing touch */
+  text-align: left; /* Center our content text */
+  }
+
+#wrap h3
+{
+  font: italic 20px Georgia; /* Set font for our heading 2 that will be displayed in our wrap */
+  }
+
+.watermark
+{
+  position: fixed;
+  opacity: 0.07;
+  z-index: 99;
+  color: red;
+  top: 15;
+  left: 15%;
+  font: normal 406px Georgia;
+  }
+
+/* Form & Input field styles */
+
+form
+{
+  margin-top: 1px; /* Make some more distance away from the description text */
+  padding: 10px;
+  }
+
+form .submit_button
+{
+  background: #F9F9F9; /* Set button background */
+  border: 1px solid #DFDFDF; /* Small border around our submit button */
+  padding: 8px; /* Add some more space around our button text */
+  }
+
+input
+{
+  font: normal 16px Georgia; /* Set font for our input fields */
+  border: 1px solid #DFDFDF; /* Small border around our input field */
+  padding: 1px; /* Add some more space around our text */
+  }
+
+label
+{
+  display: inline-block;
+  width: 100ch;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  text-align: right;
+  }
+
+td
+{
+  padding: 15px 15px;
+  }
