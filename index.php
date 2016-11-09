@@ -60,8 +60,8 @@
      </td></tr><tr><td>
      Zustellformat: 
      </td><td>
-     <input type="radio" name="zf" value="PDF" checked/>PDF
-     <input type="radio" name="zf" value="EPUB"/>EPUB
+     <input type="radio" name="zf" value="PDF" checked/> PDF
+     <input type="radio" name="zf" value="EPUB"/> EPUB
      </td></tr></table>
      <center>
          <input type="submit" class="submit_button" value="Abschicken!"/>
