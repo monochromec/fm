@@ -23,11 +23,11 @@ for the discontinuation of the subscription upon confirmation of this removal.
 
 The individual files contain the following functionality:
 
-conf.php: Subscription confirmation after successful registration
-db.php: SQLite-based DB handling class including methods to enter records, delete them and check for their presence
-del.php: Removal confirmation 
-index.php: Landing page including the entry form (along with some client-side validation code)
-mail.php: Email header for inclusion purposes
-rm.php: Removal confirmation page
-sendFM.sh: Bash script for the retrieval
-style.css: Global style sheet for all pages
+conf.php: Subscription confirmation after successful registration  
+db.php: SQLite-based DB handling class including methods to enter records, delete them and check for their presence  
+del.php: Removal confirmation  
+index.php: Landing page including the entry form (along with some client-side validation code)  
+mail.php: Email header for inclusion purposes  
+rm.php: Removal confirmation page  
+sendFM.sh: Bash script for the retrieval  
+style.css: Global style sheet for all pages  
